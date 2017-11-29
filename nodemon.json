@@ -1,0 +1,10 @@
+{
+  "verbose": true,
+  "watch": [
+    "src/"
+  ],
+  "execMap": {
+    "js": "yarn build && node --inspect=0.0.0.0:9229"
+  },
+  "ext": "js ts json"
+}

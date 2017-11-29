@@ -1,0 +1,23 @@
+{
+  "name": "test-chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yann Leflour <yannl@bamlab.fr>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./build/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "",
+  "dependencies": {
+    "botbuilder": "^3.12.0",
+    "express": "^4.16.2",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/node": "^8.0.53",
+    "nodemon": "^1.12.1"
+  }
+}

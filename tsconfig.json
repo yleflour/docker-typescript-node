@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "inlineSourceMap": true,
+    "rootDir": "src",
+    "module": "commonjs",
+    "outDir": "build"
+  },
+  "files": [
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

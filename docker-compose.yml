@@ -1,0 +1,12 @@
+version: '3.2'
+services:
+  chatbot:
+    build: .
+    volumes:
+      - type: bind
+        source: ./src
+        target: /srv/src
+    ports:
+     - "3000:3000"
+     - "9229:9229"
+

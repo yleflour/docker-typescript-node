@@ -1,0 +1,12 @@
+FROM node:8.9.1
+
+WORKDIR /srv
+
+COPY package.json package.json
+COPY yarn.lock yarn.lock
+COPY tsconfig.json tsconfig.json
+COPY nodemon.json nodemon.json
+
+RUN yarn
+
+CMD ["yarn","start"]
